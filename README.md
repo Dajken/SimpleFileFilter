@@ -13,8 +13,8 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YourUsername/FilesFilter.git
-   cd FilesFilter
+   git clone https://github.com/Dajken/SimpleFileFilter.git
+   cd SimpleFileFilter
    ```
 
 2. **Create a virtual environment and install dependencies:**
@@ -44,7 +44,7 @@ THIS LINES(11, 12):
 DOWNLOADS = r"C:\Users\User\Downloads"#YOUR PATH TO DOWNLOADS
 DESTINATION = r"C:\Users\User\Sort"#YOUR PATH TO SORTS(you can create one)
 ```
-The script will start listening to your Downloads folder. Try downloading a file, and watch it magically move to the correct folder! Press `Ctrl+C` to safely stop the script.
+The script will start listening to your Downloads folder and move it into your sort folders ;).
 
 ## 📂 Project Structure
 ├── main.py              # Main script (event handler and observer logic)
