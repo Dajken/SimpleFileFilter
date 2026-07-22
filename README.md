@@ -38,7 +38,12 @@ Run the main script:
 ```bash
 python main.py
 ```
-Change Path to YOUR donwload and sort directories
+!!!Change Path to YOUR donwload and sort directories!!!
+THIS LINES(11, 12):
+```
+DOWNLOADS = r"C:\Users\User\Downloads"#YOUR PATH TO DOWNLOADS
+DESTINATION = r"C:\Users\User\Sort"#YOUR PATH TO SORTS(you can create one)
+```
 The script will start listening to your Downloads folder. Try downloading a file, and watch it magically move to the correct folder! Press `Ctrl+C` to safely stop the script.
 
 ## 📂 Project Structure
